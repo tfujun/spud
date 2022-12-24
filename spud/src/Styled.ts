@@ -1,10 +1,10 @@
 import styled from 'styled-components';
 
-export const styledContainer = styled.div`
+export const StyledContainer = styled.div`
     text-align: center;
 `
 
-export const styledHeading = styled.header`
+export const StyledHeading = styled.header`
     background-color: #282c34;
     min-height: 100vh;
     display: flex;
@@ -15,6 +15,6 @@ export const styledHeading = styled.header`
     color: white;
 `
 
-export const styledImg = styled.img`
+export const StyledImg = styled.img`
     olor: #61dafb;
 `
