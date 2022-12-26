@@ -12,6 +12,8 @@ const initialState =
 export default function AuthenticationReducer(state = initialState, action: any){
     switch (action) {
         default:
-            return state;
+            return {
+                ...state
+            }
     }
 }
