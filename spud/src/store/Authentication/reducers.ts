@@ -1,3 +1,6 @@
+import actions from './actions';
+import types from './types';
+
 const initialState = 
     {
     client_id: 1,
@@ -11,6 +14,12 @@ const initialState =
 
 export default function AuthenticationReducer(state = initialState, action: any){
     switch (action) {
+        case types.AUTH_REQUESTED:
+            console.log(action.payload);
+            return {
+                ...state,
+
+            }
         default:
             return {
                 ...state
