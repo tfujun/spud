@@ -10,3 +10,9 @@ export const DashboardContainer = styled.div`
     font-size: calc(10px + 2vmin);
     color: white;
 `
+export const FlexBox = styled.div`
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    flex-grow: 1;
+`

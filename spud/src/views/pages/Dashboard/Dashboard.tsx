@@ -26,6 +26,15 @@ const Dashboard: React.FunctionComponent = () => {
     return (
         <Styled.DashboardContainer>
             Hello
+            <Styled.FlexBox>
+                <Styled.FlexBox>
+                    First
+                </Styled.FlexBox>
+                <Styled.FlexBox>
+                    Second
+                </Styled.FlexBox>
+                This is inside a flexbox
+            </Styled.FlexBox>
             <a href={loginLink}>
                 Hi
             </a>
