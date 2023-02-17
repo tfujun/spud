@@ -16,5 +16,5 @@ export const StyledHeading = styled.header`
 `
 
 export const StyledImg = styled.img`
-    olor: #61dafb;
+    color: #61dafb;
 `
