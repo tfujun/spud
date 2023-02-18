@@ -1,7 +1,7 @@
 {
   "name": "spud",
   "version": "0.1.0",
-  "homepage": "https://tfujun.github.io/spud/spud/src",
+  "homepage": "https://tfujun.github.io/spud",
   "private": true,
   "dependencies": {
     "@babel/core": "^7.0.0-0",
