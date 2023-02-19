@@ -23,7 +23,8 @@ const Dashboard: React.FunctionComponent = () => {
     return (
         <Styled.DashboardContainer>
             Hello
-            <Button>
+            <Button
+            backgroundColour='rubyred'>
                 Wow
             </Button>
         </Styled.DashboardContainer>

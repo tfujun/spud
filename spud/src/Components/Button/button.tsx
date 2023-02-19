@@ -17,6 +17,7 @@ const button : React.FunctionComponent<buttonProps> = (props: buttonProps) => {
     return (
         <Styled.button
         onClick={onClick}
+        backgroundColor={backgroundColour}
         >
             {children}
         </Styled.button>
