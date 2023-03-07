@@ -2,22 +2,29 @@ import React from 'react';
 import * as Styled from './styled';
 
 interface buttonProps {
-    textColour?: string;
     backgroundColour?: string;
-    onClick?: any;
-    width?: any;
-    height?: any;
+    colour?: string;
     padding?: any;
-    text?: any;
+    textAlign?: string;
+    fontSize?: any;
+    textDecoration?: any;
+    border?: any;
+    onClick?: any;
     children?: any;
 }
 
 const button : React.FunctionComponent<buttonProps> = (props: buttonProps) => {
-    const {textColour, backgroundColour, onClick, width, height, padding, text, children} = props;
+    const {colour, backgroundColour, onClick, padding, textAlign, fontSize, textDecoration, border, children} = props;
     return (
         <Styled.button
         onClick={onClick}
         backgroundColor={backgroundColour}
+        color={colour}
+        padding={padding}
+        textAlign={textAlign}
+        fontSize={fontSize}
+        textDecoration={textDecoration}
+        border={border}
         >
             {children}
         </Styled.button>

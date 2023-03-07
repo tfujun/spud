@@ -8,11 +8,6 @@ const Dashboard: React.FunctionComponent = () => {
 
     const [ token, setToken ] = useState('');
 
-    // const dispatch = useDispatch();
-    // useEffect(() => {
-    //     dispatch(RequestAuth({clientID: 'hello'}));
-    // }, [dispatch]);
-
     const auth_endpoint = process.env.REACT_APP_SPOTIFY_AUTH_ENDPOINT;
     const client_id = process.env.REACT_APP_SPUD_CLIENT_ID;
     const redirect_uri = process.env.REACT_APP_REDIRECT_URI;
@@ -23,8 +18,7 @@ const Dashboard: React.FunctionComponent = () => {
     return (
         <Styled.DashboardContainer>
             Hello
-            <Button
-            backgroundColour='rubyred'>
+            <Button>
                 Wow
             </Button>
         </Styled.DashboardContainer>
