@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { useDispatch } from 'react-redux';
 import * as Styled from './Styled';
 import { RequestAuth } from '../../../store/Authentication/actions';
-import Button from '../../../Components/Button/button.tsx';
+import Button from '../../../Components/Button/button';
 
 const Dashboard: React.FunctionComponent = () => {
 
@@ -22,7 +22,6 @@ const Dashboard: React.FunctionComponent = () => {
                 Wow
             </Button>
         </Styled.DashboardContainer>
-        
     );
 };
 

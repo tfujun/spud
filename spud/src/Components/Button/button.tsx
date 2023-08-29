@@ -13,7 +13,7 @@ interface buttonProps {
     children?: any;
 }
 
-const button : React.FunctionComponent<buttonProps> = (props: buttonProps) => {
+const Button : React.FunctionComponent<buttonProps> = (props: buttonProps) => {
     const {colour, backgroundColour, onClick, padding, textAlign, fontSize, textDecoration, border, children} = props;
     return (
         <Styled.button
@@ -31,4 +31,4 @@ const button : React.FunctionComponent<buttonProps> = (props: buttonProps) => {
     )
 }
 
-export default button;
+export default Button;
