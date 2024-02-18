@@ -3,9 +3,9 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import { Provider } from 'react-redux';
-import store from './store';
+import store from './store/store';
 // import { RouterProvider } from 'react-router-dom';
-import Dashboard from './views/pages/Dashboard/Dashboard';
+import StyleConfig from './StyleConfig';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -13,7 +13,7 @@ const root = ReactDOM.createRoot(
 root.render(
   <React.StrictMode>
     <Provider store={store}>
-      <Dashboard/>
+      <StyleConfig/>
     </Provider>
   </React.StrictMode>
 );

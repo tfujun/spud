@@ -1,5 +1,5 @@
 import { combineReducers } from '@reduxjs/toolkit';
-import AuthenticationReducer from './store/Authentication/reducers';
+import AuthenticationReducer from './Authentication/reducers';
 
 const rootReducer = combineReducers({
     Authentication: AuthenticationReducer

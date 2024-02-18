@@ -5,7 +5,7 @@ interface buttonProps {
     colour?: string;
     padding?: any;
     textAlign?: any;
-    fontSize?: any;
+    fontSize?: any; 
     textDecoration?: any;
     border?: any;
 }
@@ -18,5 +18,4 @@ export const button = styled.button`
     text-align: ${(props: buttonProps) => props.textAlign || 'center'};
     font-size: ${(props: buttonProps) => props.fontSize || '16px'};
     text-decoration: ${(props: buttonProps) => props.textDecoration || 'none'};
-    
 `
